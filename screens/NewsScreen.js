@@ -14,7 +14,7 @@ const NewsScreen = ({ route, navigation }) => {
     const fetchNews = async (category) => {
         try {
             const response = await axios.get(
-                ` https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=d4b65b1ef4d64c1eb93c1258663fe9eb`
+                ` https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=API_Key_HEREE`
             );
 
             const articles = response.data.articles;
